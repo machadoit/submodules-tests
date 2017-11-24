@@ -11,7 +11,7 @@ module.service('uploader', ['$q', function($q) {
         deferred.resolve(JSON.parse(xhr.responseText));
       }
       else {
-        deferred.reject('HTTP status ' + xhr.status);
+        deferred.reject('HTTPpp status ' + xhr.status);
       }
     }
   }
